@@ -25,5 +25,5 @@ module "ec2_ansible" {
         Name = "Ansible"
     },
     var.common_tags
-  )
+  ) 
 }

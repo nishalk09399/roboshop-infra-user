@@ -1,5 +1,3 @@
-#in this script we are automatic the roboshop whole project my git url only iam refering to 
-
 #!/bin/bash
 
 yum install ansible -y 
@@ -16,3 +14,7 @@ ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps3
 ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 -e component=shipping main.yaml
 ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 -e component=payment main.yaml
 ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 -e component=web main.yaml
+
+
+
+#in this script we are automatic the roboshop whole project my git url only iam refering to 
